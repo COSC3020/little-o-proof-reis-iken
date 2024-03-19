@@ -18,4 +18,4 @@ might help with the notation for mathematical expressions.
 
 $f(n)\in o(g(n)) \iff \forall c>0, \exists n_0, \forall n\ge n_0: f(n) < c g(n)$
 
-**Firstly, the definition of O (big O) is $f(n)\in o(g(n)) \iff \exists c>0, \exists n_0 \in N : \forall n\ge n_0, |f(n)| \le c * |g(n)|**
+**Firstly, the definition of O (big O) is $f(n)\in o(g(n)) \iff \exists c>0, \exists n_0 \in N : \forall n\ge n_0, |f(n)| \le c * |g(n)|$**
