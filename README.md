@@ -18,7 +18,7 @@ might help with the notation for mathematical expressions.
 
 $f(n)\in o(g(n)) \iff \forall c>0, \exists n_0, \forall n\ge n_0: f(n) < c g(n)$
 
-**Firstly, the definition of O (big O) is $f(n)\in o(g(n)) \iff \exists c>0, \exists n_0 \in N : \forall n\ge n_0, |f(n)| \le c * |g(n)|$**
+**Firstly, the definition of big O is $f(n)\in o(g(n)) \iff \exists c>0, \exists n_0 \in N : \forall n\ge n_0, |f(n)| \le c * |g(n)|$**
 
 **To prove that $f(n)\in o(g(n))$ implies $f(n)\in O(g(n))$, we must show that for any two functions f(n) and g(n) such that $f(n)\in o(g(n))$, there exist constants c' and $n_0$' such that f(n) $\le$ c'g(n) $\forall$ n $\ge$ $n_0$'**
 
