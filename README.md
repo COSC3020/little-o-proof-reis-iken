@@ -24,6 +24,6 @@ $f(n)\in o(g(n)) \iff \forall c>0, \exists n_0, \forall n\ge n_0: f(n) < c g(n)$
 
 **So, given that $f(n)\in o(g(n))$, we know that $\forall c>0, \exists n_0, \forall n\ge n_0: f(n) < c g(n)$.**
 
-**We can choose c' = c and $n_0$' = $n_0$, which means that $\forall n \ge n_0', f(n) < cg(n), which implies that f(n) \le cg(n).$**
+**We can choose c' = c and $n_0$' = $n_0$, which means that $\forall n \ge n_0', f(n) < cg(n)$, which implies that $f(n) \le cg(n).$**
 
 **Therefore, $f(n)\in O(g(n))$, and thus we can conclude that $f(n)\in o(g(n))$ implies $f(n)\in O(g(n))$.**
